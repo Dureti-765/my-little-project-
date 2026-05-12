@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dureti Tebarek Portfolio</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header{
+      background: linear-gradient(to right, #d8b4fe, #bbf7d0);
+      padding: 40px;
+      text-align: center;
+    }
+
+    header h1{
+      font-size: 40px;
+      color: #4b5563;
+      margin-bottom: 10px;
+    }
+
+    header p{
+      font-size: 18px;
+    }
+
+    nav{
+      background-color: #f3f4f6;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a{
+      text-decoration: none;
+      margin: 15px;
+      color: #6b21a8;
+      font-weight: bold;
+    }
+
+    nav a:hover{
+      color: #16a34a;
+    }
+
+    section{
+      padding: 50px;
+    }
+
+    .about{
+      background-color: #faf5ff;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .skills{
+      background-color: #f0fdf4;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .projects{
+      background-color: #fafafa;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .project-card{
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .project-card img{
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .contact{
+      background-color: #ecfccb;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    footer{
+      text-align: center;
+      padding: 20px;
+      background-color: #d8b4fe;
+      margin-top: 30px;
+      color: #333;
+    }
+
+    button{
+      background-color: #c084fc;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+      cursor: pointer;
+      color: white;
+    }
+
+    button:hover{
+      background-color: #86efac;
+      color: black;
+    }
+
+    /* small responsive design */
+    @media(max-width: 700px){
+      header h1{
+        font-size: 30px;
+      }
+
+      section{
+        padding: 25px;
+      }
+
+      nav a{
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dureti Tebarek</h1>
+    <p>Web Design & Development Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <br>
+    <p>
+      Hello! My name is Dureti Tebarek. I am a web design and development student.
+      I enjoy creating websites and learning new things in technology. I am improving
+      my HTML and CSS skills and I want to become a professional web developer in the future.
+    </p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <br>
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Basic JavaScript</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+
+      <!-- Put your project image here -->
+      <img src="project-image.jpg" alt="My project image">
+
+      <h3>My Previous Project</h3>
+
+      <p>
+        This is one of the projects I created before. It helped me practice
+        web development and improve my design skills.
+      </p>
+
+      <!-- Put your github or project link inside href -->
+      <a href="#">
+        <button>View Project</button>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <br>
+
+    <p>Email: dureti@example.com</p>
+    <p>Phone: +251 900000000</p>
+  </section>
+
+  <footer>
+    <p>Created by Dureti Tebarek | 2026</p>
+  </footer>
+
+</body>
+</html>
